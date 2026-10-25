@@ -1,0 +1,12 @@
+export const questionsDatabase = [
+  { id: 1, status: 'completed', en: "I'd like to order an iced coffee with milk and less sugar.", vi: "Tôi muốn gọi một ly cà phê sữa ít đường.", ipa: "/aɪd laɪk tʊ ˈɔːrdər ən aɪst ˈkɔːfi wɪð mɪlk/", image: "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=300&auto=format&fit=crop&q=80" },
+  { id: 2, status: 'completed', en: "I come from Ho Chi Minh City and currently live in Hanoi.", vi: "Tôi đến từ Thành phố Hồ Chí Minh và hiện đang sống ở Hà Nội.", ipa: "/aɪ kʌm frɒm hoʊ tʃiː mɪn ˈsɪti/", image: null },
+  { id: 3, status: 'completed', en: "I have worked at this company for more than two years.", vi: "Tôi đã làm việc ở công ty này được hơn hai năm rồi.", ipa: "/aɪ hæv wɜːkt æt ðɪs ˈkʌmpəni/", image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=300&auto=format&fit=crop&q=80" },
+  { id: 4, status: 'current', en: "My hobbies are reading business books and jogging on weekends.", vi: "Sở thích của tôi là đọc sách kinh doanh và chạy bộ vào cuối tuần.", ipa: "/maɪ ˈhɒbiz ɑː ˈriːdɪŋ ˈbɪznɪs bʊks/", image: null },
+  { id: 5, status: 'unlearned', en: "I can speak basic conversational English and Japanese.", vi: "Tôi có thể nói được tiếng Anh giao tiếp cơ bản và tiếng Nhật.", ipa: "/aɪ kæn spiːk ˈbeɪsɪk ˌkɒnvəˈseɪʃənl ˈɪŋɡlɪʃ/", image: null },
+  { id: 6, status: 'unlearned', en: "My dream is to travel around the world.", vi: "Ước mơ của tôi là có thể đi du lịch vòng quanh thế giới.", ipa: "/maɪ driːm ɪz tʊ ˈtrævl əˈraʊnd ðə wɜːld/", image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=300&auto=format&fit=crop&q=80" },
+  { id: 7, status: 'unlearned', en: "Nice to meet you, I hope we will cooperate well together.", vi: "Rất vui được gặp bạn, hy vọng chúng ta sẽ hợp tác tốt.", ipa: "/naɪs tʊ miːt juː aɪ həʊp wiː wɪl kəʊˈɒpəreɪt/", image: null },
+  { id: 8, status: 'unlearned', en: "There are 4 people in my family: my parents, my brother and me.", vi: "Gia đình tôi gồm có 4 người: bố mẹ, anh trai và tôi.", ipa: "/ðeər ɑː fɔː ˈpiːpl ɪn maɪ ˈfæmɪli/", image: null },
+  { id: 9, status: 'unlearned', en: "I want to improve my English speaking skills to get promoted.", vi: "Tôi muốn nâng cao kỹ năng nói tiếng Anh để thăng tiến.", ipa: "/aɪ wɒnt tʊ ɪmˈpruːv maɪ ˈɪŋɡlɪʃ ˈspiːkɪŋ skɪlz/", image: null },
+  { id: 10, status: 'unlearned', en: "Thank you for listening to my presentation today.", vi: "Cảm ơn bạn đã lắng nghe bài thuyết trình của tôi.", ipa: "/θæŋk juː fɔː ˈlɪsnɪŋ tʊ maɪ ˌpreznˈteɪʃn/", image: null },
+];

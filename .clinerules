@@ -1,0 +1,5 @@
+# Cline Agent Rules
+
+- **Core Directive:** Read and strictly follow the global guidelines in `@AGENTS.md` and any nested `AGENTS.md` file relevant to your current working directory (e.g., `apps/web/AGENTS.md`).
+- **Living Spec:** Always use `apps/web/specs/prototype.html` as the absolute source of truth for UI/UX layout, Tailwind classes, and animations.
+- **Verification Loop:** Always execute syntax/build checks (e.g., `npm run build`) before reporting completion.
