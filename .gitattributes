@@ -1,0 +1,3 @@
+np-provenance.jsonl merge=union
+*.sh text eol=lf
+.claude/bin/* text eol=lf

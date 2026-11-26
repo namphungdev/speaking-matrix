@@ -1,0 +1,15 @@
+{
+  "name": "np",
+  "displayName": "NP Harness",
+  "version": "0.7.0",
+  "description": "Project-initialized codegen harness. /np:np-init scans any repo and generates .claude/project_context (architecture, conventions, stack, modules, business, lessons) plus a CocoIndex code-search index; daily /np:plan → /np:implement → /np:test → /np:pr-review loops run against that context and feed what they learn back into it. v0.7: strict file granularity — the planner declares a file budget against a comparable unit, the orchestrator gates the plan on it and folds back any file the plan did not list, and /np:harmonize finds the project rules that spell a unit out as a list of files. v0.3: /np:patch for minutes-scale small fixes, and an adversarial multi-agent review (/np:review) that runs automatically after every implementation. v0.2: full frontend parity (frontend architecture/conventions at init, frontend-aware plan/implement/test loops, frontend context findings).",
+  "keywords": [
+    "codegen",
+    "harness",
+    "project-context",
+    "conventions",
+    "code-search",
+    "cocoindex",
+    "feedback-loop"
+  ]
+}

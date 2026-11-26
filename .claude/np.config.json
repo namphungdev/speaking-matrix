@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "project_name": "speaking-matrix",
+  "stacks": [
+    {
+      "kind": "dotnet",
+      "roots": [
+        "services/api/SpeakingMatrix"
+      ],
+      "build": "dotnet build {target}",
+      "test": "dotnet test {target} --logger trx",
+      "error_format": "msbuild",
+      "results_format": "trx"
+    },
+    {
+      "kind": "react-js",
+      "roots": [
+        "apps/web"
+      ],
+      "build": "npm run build",
+      "typecheck": "npm run build",
+      "error_format": "generic",
+      "results_format": "generic"
+    }
+  ],
+  "layout_families": {
+    "layered-dotnet": {
+      "description": "One .csproj per layer (Api/Application/Domain/Infrastructure) in SpeakingMatrix.slnx",
+      "reference_module": "services/api/SpeakingMatrix"
+    },
+    "vite-react-spa": {
+      "description": "Vite + React JSX single-page app with Tailwind, state in App.jsx, no router",
+      "reference_module": "apps/web"
+    }
+  },
+  "harness": {
+    "runs_root": ".np-runs",
+    "handoff_dirname": ".codegen-handoff",
+    "interactive": true
+  },
+  "models": {
+    "init": "opus",
+    "plan": "opus",
+    "implement": "sonnet",
+    "review": "sonnet",
+    "patch": "sonnet"
+  },
+  "review": {
+    "enabled": true,
+    "min_impact": "medium",
+    "patch_min_impact": "medium",
+    "agents": [
+      "review-bug-hunter",
+      "review-security-auditor",
+      "review-code-quality",
+      "review-contracts",
+      "review-test-coverage",
+      "review-historical-context"
+    ]
+  },
+  "frontend": {
+    "template_source": ""
+  },
+  "provenance": {
+    "enabled": true
+  },
+  "index": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "**/bin/**",
+      "**/obj/**",
+      "**/node_modules/**",
+      "**/dist/**",
+      ".cline/**",
+      ".claude/project_context/lessons/_archive/**",
+      "**/np-provenance.jsonl"
+    ]
+  }
+}

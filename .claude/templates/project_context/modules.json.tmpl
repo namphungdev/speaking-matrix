@@ -1,0 +1,40 @@
+{
+  "_template_notes": [
+    "np-init: fill from detect_stack.py output + model classification, then DELETE this _template_notes key.",
+    "families: one entry per layout family; `detect` is a human/model-readable heuristic ('single .csproj + Program.cs at module root').",
+    "layer_paths: relative to a module's root; use \"\" when the family has no such layer.",
+    "reference_modules: the exemplar module per family — MUST be confirmed by the user during np-init.",
+    "modules[].build_target: the DISCOVERED buildable path (actual project file or dir), never a templated name.",
+    "modules[].placement_notes: quirks a code generator must know (e.g. 'csproj name prefixed with parent dir')."
+  ],
+  "families": {
+    "{{FAMILY_ID}}": {
+      "name": "{{FAMILY_NAME}}",
+      "detect": "{{DETECT_HEURISTIC}}",
+      "layer_paths": {
+        "domain": "{{DOMAIN_PATH}}",
+        "application": "{{APPLICATION_PATH}}",
+        "infrastructure": "{{INFRASTRUCTURE_PATH}}",
+        "api": "{{API_PATH}}"
+      },
+      "notes": ["{{FAMILY_QUIRK}}"]
+    }
+  },
+  "default_family": "{{DEFAULT_FAMILY_ID}}",
+  "reference_modules": {
+    "{{FAMILY_ID}}": "{{REFERENCE_MODULE_NAME}}"
+  },
+  "modules": [
+    {
+      "name": "{{MODULE_NAME}}",
+      "path": "{{MODULE_PATH}}",
+      "family": "{{FAMILY_ID}}",
+      "capabilities": {
+        "messaging": false,
+        "http_api": false
+      },
+      "build_target": "{{DISCOVERED_BUILD_TARGET_PATH}}",
+      "placement_notes": []
+    }
+  ]
+}

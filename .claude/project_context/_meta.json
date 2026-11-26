@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "plugin_version": "0.7.0",
+  "initialized_at": "2026-11-26T06:37:09Z",
+  "generated_hashes": {
+    "architecture.md": "sha256:c2a91af8f5b1a4f9d8615c613548125c499d7008c679558c53d2ee174ff717c8",
+    "conventions.md": "sha256:feeb0357f7da195907aeea5d21c2fbeb7448e95056bdc317e5e43d7759e35264",
+    "stack.md": "sha256:e99c166597096bb50c5d44a06b513d71c9631383ff18c8d8cf861118b68b141b",
+    "modules.json": "sha256:5536bc534bb59c943c1fa89575c38ca212fe13b7fc0c69ea91ee43535368fe35"
+  },
+  "digest_hash": "sha256:ce205a1361d808606259c25c214e643434f3d977bec02170591119ee756a7326"
+}

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "np-workspace": {
+      "command": "bash",
+      "args": [
+        ".claude/bin/np-mcp.sh"
+      ]
+    },
+    "np-code-search": {
+      "command": "bash",
+      "args": [
+        ".claude/bin/ccc-wrapper.sh",
+        "mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+### Coding conventions — apply to every change, with or without a np command
+
+Every source file written or edited in this repo follows `{{CONVENTIONS_PATH}}`.
+Before writing a file, read the rules there that apply to it and run its
+`## Pre-Write Checklist`. The rules that matter most:
+
+{{RULE_LINES}}
+{{AMENDMENT_BLOCK}}
+**Precedence:** `{{CONVENTIONS_PATH}}` and its `## Amendments` win. Any other
+rule file, skill or instruction in this repo that disagrees with them is out of
+date — follow the conventions file and tell the developer about the conflict.
+
+**How many files (B7) — the rule most often broken by generated code.** A rule
+that requires an artifact *kind* (an interface, a validator, a command, a folder)
+requires the kind and its location, not one file per type. A rule that spells a
+unit out as a list — `{Command.ext, Handler.ext, Validator.ext}`, or a placement
+row naming four kinds — names those kinds and their folder, **never one file
+each**. Before adding a file: a single-use input, result, DTO, mapper, helper or
+validator lives in its one consumer's file; an interface with one implementation
+lives in that implementation's file, and only where the comparable unit you are
+copying has an interface for that kind at all; a constant joins the existing
+group file. The anchor is the file count of a comparable, hand-written unit in
+this repo — more than that needs a reason you can state, in the plan or to the
+developer, before you write it.
+
+This digest is generated from the conventions file by np-harmonize; edit the
+conventions file, not this text.

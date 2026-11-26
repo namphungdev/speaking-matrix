@@ -1,0 +1,22 @@
+exclude_patterns:
+  # hidden dirs (replacing ccc's blanket `**/.*` — keeps .claude/project_context searchable)
+  - "**/.git"
+  - "**/.github"
+  - "**/.vscode"
+  - "**/.idea"
+  - "**/.vs"
+  - "**/.cocoindex_code"
+  - "**/.np-runs"
+  - "**/.venv"
+  # build output / dependencies
+  - "**/bin"
+  - "**/obj"
+  - "**/node_modules"
+  - "**/dist"
+  - "**/__pycache__"
+  # duplicate agent-skill copies for Cline
+  - ".cline"
+  # archived lessons are superseded knowledge, never searched
+  - ".claude/project_context/lessons/_archive"
+  # provenance ledger — content hashes, never searched
+  - "**/np-provenance.jsonl"
