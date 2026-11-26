@@ -1,0 +1,13 @@
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\bin\Debug\net10.0\SpeakingMatrix.Application.deps.json
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\bin\Debug\net10.0\SpeakingMatrix.Application.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\bin\Debug\net10.0\SpeakingMatrix.Application.pdb
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.AssemblyInfoInputs.cache
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.AssemblyInfo.cs
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.csproj.CoreCompileInputs.cache
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.sourcelink.json
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\refint\SpeakingMatrix.Application.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\SpeakingMatrix.Application.pdb
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\ref\SpeakingMatrix.Application.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Application\obj\Debug\net10.0\Speaking.4AFC524C.Up2Date

@@ -1,0 +1,15 @@
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\bin\Debug\net10.0\SpeakingMatrix.Infrastructure.deps.json
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\bin\Debug\net10.0\SpeakingMatrix.Infrastructure.runtimeconfig.json
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\bin\Debug\net10.0\SpeakingMatrix.Infrastructure.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\bin\Debug\net10.0\SpeakingMatrix.Infrastructure.pdb
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.csproj.AssemblyReference.cache
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.AssemblyInfoInputs.cache
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.AssemblyInfo.cs
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.sourcelink.json
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\refint\SpeakingMatrix.Infrastructure.dll
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.pdb
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\SpeakingMatrix.Infrastructure.genruntimeconfig.cache
+D:\CODE\AI\speaking-matrix\services\api\SpeakingMatrix\SpeakingMatrix.Infrastructure\obj\Debug\net10.0\ref\SpeakingMatrix.Infrastructure.dll

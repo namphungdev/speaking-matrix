@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="SpeakingMatrix.Api/SpeakingMatrix.Api.csproj" Id="bc42ab7a-b2cb-434d-9688-8122fce1921d" />
+  <Project Path="SpeakingMatrix.Application/SpeakingMatrix.Application.csproj" Id="83718f65-c891-4600-9de9-18476793eac0" />
+  <Project Path="SpeakingMatrix.Domain/SpeakingMatrix.Domain.csproj" Id="6537c47e-0bf1-48c1-b9a1-bca0981186ed" />
+  <Project Path="SpeakingMatrix.Infrastructure/SpeakingMatrix.Infrastructure.csproj" Id="2234f899-7d27-4a07-a7e8-4274f6a84fd9" />
 </Solution>

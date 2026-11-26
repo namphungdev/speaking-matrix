@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("c9acf050-acff-463d-9533-85c7b943013a")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpeakingMatrix.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b9d1164f12e25844551fd5b245ef3ae3f861d33")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38944cf6066cf6b3687e83027a0747744c46a299")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpeakingMatrix.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpeakingMatrix.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
