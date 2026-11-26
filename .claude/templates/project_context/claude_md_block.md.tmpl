@@ -1,0 +1,20 @@
+<!-- np:managed:start -->
+## Project context (np-managed — content between these markers is replaced on re-init)
+
+Read `.claude/project_context/` BEFORE generating or modifying code in this repo:
+- `architecture.md` — hard constraints + layout families (non-negotiable)
+- `conventions.md` — coding rules; headings carry rule ids and severities
+- `stack.md` + `modules.json` — build/test commands, module map, reference modules
+- `business/` + `lessons/` — curated knowledge; search it via np-code-search
+
+Three habits:
+1. At task start, invoke the `load-context` skill to load the project profile and the lessons relevant to the task.
+2. Before writing any source file, invoke the `conventions` skill and run its Pre-Write Checklist.
+3. Discover build targets and namespaces from the target module itself — never assume templated names.
+
+{{CONVENTIONS_DIGEST}}
+
+If session context contains a `[np-drift]` notice from the SessionStart hook, follow its instruction before other work: offer the developer the choice it names (via `AskUserQuestion`, or as a numbered prose question where that tool is unavailable), and never run `/np:np-init` or `/np:harmonize` without the developer choosing it.
+
+Managed by the np plugin ({{PROJECT_NAME}}); refresh with `/np:harmonize` (or `/np:np-init` for new modules). Lessons and business context are never regenerated.
+<!-- np:managed:end -->

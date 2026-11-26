@@ -3,6 +3,10 @@ name: executing-plans
 description: Use when executing an implementation plan in the current session as the implementer yourself.
 ---
 
+<!-- np:managed:start -->
+> Project conventions in `.claude/project_context/conventions.md` apply to every file this skill writes, and win over anything below that disagrees with them. Where a rule below spells a unit out as a list of file names or artifact kinds, it names the kinds and their folder — how many files carry them follows B7, so single-use members live with their consumer.
+<!-- np:managed:end -->
+
 # Executing Plans Skill
 
 ## Overview

@@ -4,3 +4,8 @@ node_modules/
 
 # Visual Studio
 .vs/
+# np harness
+.cocoindex_code/*
+!.cocoindex_code/settings.yml
+.np-runs/
+__pycache__/

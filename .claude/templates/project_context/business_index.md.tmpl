@@ -1,0 +1,26 @@
+# {{PROJECT_NAME}} — Business Context Index
+
+> Curated business knowledge, committed to git and searched via
+> np-code-search. np-init creates this index and the domain skeletons ONCE —
+> re-init never regenerates anything under `business/`.
+
+## Domains
+
+{{DOMAIN_LIST}}
+<!-- np-init: one line per business domain identified from module/feature
+     names during classification:
+     - [<Domain Title>](<domain>.md) — <one-line scope>
+     Create each <domain>.md as a skeleton: `# <Domain Title> — Business Context`
+     plus any facts already evidenced by the code (entity names, workflows). -->
+
+## How entries work
+
+- Add entries with `/np:np-context` or the `context_add_entry` tool
+  (`kind=business`, `domain=<file stem>`); `BC-*` ids are minted automatically.
+- Each entry is an anchored H2 section in its domain file:
+  `## <Title> {#BC-YYYYMMDD-xxxx}` followed by a
+  `<!-- np:entry id=... status=active updated=... source=... -->` metadata
+  comment, then the body. The anchor makes entries citable from plans and
+  reviews.
+- Superseding flips `status=superseded` and truncates the body to one line —
+  entries are never deleted.

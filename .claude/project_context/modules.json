@@ -1,0 +1,65 @@
+{
+  "families": {
+    "layered-dotnet": {
+      "name": "Layered .NET solution (one .csproj per layer)",
+      "detect": "a folder with a .slnx/.sln and child projects <Name>.Api / .Application / .Domain / .Infrastructure",
+      "layer_paths": {
+        "domain": "SpeakingMatrix.Domain",
+        "application": "SpeakingMatrix.Application",
+        "infrastructure": "SpeakingMatrix.Infrastructure",
+        "api": "SpeakingMatrix.Api"
+      },
+      "notes": [
+        "Domain and Application are empty shells (Class1.cs only) as of init",
+        "Persistence (EF Core, SQL Server) and Identity live in Infrastructure; see services/api/docs/architecture/persistence.md"
+      ]
+    },
+    "vite-react-spa": {
+      "name": "Vite + React (JSX) single-page app",
+      "detect": "package.json with react + vite, src/main.jsx and src/App.jsx",
+      "layer_paths": {
+        "domain": "",
+        "application": "src",
+        "infrastructure": "src/hooks",
+        "api": ""
+      },
+      "notes": [
+        "No router, no TypeScript, no test runner; all shared state in src/App.jsx",
+        "Living design spec: specs/prototype.html"
+      ]
+    }
+  },
+  "default_family": "layered-dotnet",
+  "reference_modules": {
+    "layered-dotnet": "services/api/SpeakingMatrix",
+    "vite-react-spa": "apps/web"
+  },
+  "modules": [
+    {
+      "name": "SpeakingMatrix",
+      "path": "services/api/SpeakingMatrix",
+      "family": "layered-dotnet",
+      "capabilities": {
+        "messaging": false,
+        "http_api": true
+      },
+      "build_target": "services/api/SpeakingMatrix/SpeakingMatrix.slnx",
+      "placement_notes": [
+        "Api references Infrastructure only; WeatherForecastController/WeatherForecast.cs are template leftovers"
+      ]
+    },
+    {
+      "name": "web",
+      "path": "apps/web",
+      "family": "vite-react-spa",
+      "capabilities": {
+        "messaging": false,
+        "http_api": false
+      },
+      "build_target": "apps/web",
+      "placement_notes": [
+        "Commands run from apps/web; dist/ is committed build output"
+      ]
+    }
+  ]
+}
